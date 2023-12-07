@@ -1,0 +1,21 @@
+/* Wildcard selector to override default styles added by browdser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: beige;
+}
+
+/* Main content */
+main {
+    background-color: azure;
+}
+
+/* Footer */
+footer {
+    background-color: lightgray;
+}
