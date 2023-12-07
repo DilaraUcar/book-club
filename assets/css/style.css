@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Signika+Negative:wght@300;400;500;600&display=swap');
+
 /* Wildcard selector to override default styles added by browdser */
 * {
     padding: 0;
