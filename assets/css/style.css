@@ -20,7 +20,11 @@ body {
 
 /* Header */
 header {
-    background-color: beige;
+    background-color: #F5F4F4;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 4px #808080;
 }
 
 header a {
@@ -32,6 +36,11 @@ h1 {
     font-family: 'Expletus Sans' sans-serif;
     text-transform: uppercase;
     color: #11191E;
+}
+
+#menu {
+    font-size: 105%;
+    letter-spacing: 1px;
 }
 
 /* Main content */
