@@ -18,7 +18,8 @@ body {
     font-family: 'Signika Negative', sans-serif;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'Expletus Sans', sans-serif;
     text-transform: uppercase;
     color: #11191E;
@@ -64,7 +65,7 @@ main {
     position: relative;
 }
 
-h2 {
+#text-cover>h2 {
     font-family: 'Expletus Sans', sans-serif;
     text-transform: uppercase;
     color: #EAE4D7;
