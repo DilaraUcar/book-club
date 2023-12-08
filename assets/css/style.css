@@ -59,7 +59,20 @@ main {
 
 /* Footer */
 footer {
-    background-color: lightgray;
+    background-color: #F5F4F4;
+}
+
+#socials {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 130%;
+    color: #11191E;
 }
 
 /* Media query tablets and larger (768px and up) */
