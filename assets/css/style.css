@@ -45,11 +45,16 @@ h1 {
     text-transform: uppercase;
 }
 
+#menu > li {
+    margin-bottom: 5px;
+}
+
 /* Main content */
 main {
     background-color: azure;
     /* Make main element take up any extra space to push footer down */
     flex: 1 0 auto;
+    margin-top: 137px;
 }
 
 /* Footer */
