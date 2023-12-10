@@ -114,7 +114,21 @@ hr {
     margin: 5px 0;
 }
 
-#first-benefit
+#rounded-image {
+    background: url('../images/benefits-image.webp') no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px 0;
+    border-radius: 25%;
+    max-width: 320px;
+    max-height: 320px;
+}
+
+#reasons-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Footer */
 footer {
