@@ -178,14 +178,11 @@ footer {
         align-items: center;
     }
 
-    #reasons-image {
-        order: ;
-    }
-
     #second-benefit {
         order: 1;
     }
 
-    #first-benefit {}
-
+    #rounded-image {
+        border-radius: 50%;
+    }
 }
