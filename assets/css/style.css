@@ -150,3 +150,42 @@ footer {
 
 /* Media query tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {}
+
+/* Media query labtops and larger (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Benefits section */
+    #first-benefit,
+    #second-benefit {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #first-benefit>div,
+    #second-benefit>div {
+        width: 65%;
+    }
+
+    #second-benefit>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #benefits>div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    #reasons-image {
+        order: ;
+    }
+
+    #second-benefit {
+        order: 1;
+    }
+
+    #first-benefit {}
+
+}
