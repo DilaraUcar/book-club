@@ -152,6 +152,10 @@ footer {
     color: #11191E;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Media query tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {}
 
