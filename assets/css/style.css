@@ -95,6 +95,10 @@ main {
     text-align: center;
 }
 
+#story p {
+    padding: 5px 10px;
+}
+
 /* Benefits section */
 #benefits {
     width: 90%;
