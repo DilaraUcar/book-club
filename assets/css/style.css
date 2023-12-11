@@ -234,9 +234,14 @@ footer {
     #menu>li {
         padding-left: 4rem;
     }
+
+    #logo {
+        font-size: 250%;
+        margin: 0 20px;
+    }
 }
 
-/* edia query labtops and larger (1200px and up) */
+/* Media query labtops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* Benefits section */
