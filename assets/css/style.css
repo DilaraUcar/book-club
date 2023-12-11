@@ -64,7 +64,7 @@ nav {
     padding: 0 1rem;
     left: 0;
     display: none;
-    box-shadow: 0 1px 4px #808080;
+    box-shadow: 0 1.5px 2px #808080;
     top: 100%;
 }
 
@@ -239,6 +239,11 @@ footer {
         font-size: 250%;
         margin: 0 20px;
     }
+}
+
+/* Media query for small laptops and larger (1024px and up) */
+#menu a:hover {
+    border-bottom: 1px solid #4D5054;
 }
 
 /* Media query labtops and larger (1200px and up) */
