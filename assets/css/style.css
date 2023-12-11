@@ -212,6 +212,7 @@ footer {
 
 .text-center {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 /* Media query tablets and larger (768px and up) */
