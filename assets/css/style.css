@@ -110,7 +110,8 @@ main {
     position: absolute;
     width: 80%;
     min-height: 150px;
-    padding: 30px;
+    padding: 50px;
+    border-radius: 10px;
 
 }
 
