@@ -35,6 +35,9 @@ header {
     width: 100%;
     box-shadow: 0 1px 4px #808080;
     z-index: 99;
+    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
 }
 
 header a {
@@ -62,13 +65,27 @@ nav {
     left: 0;
     display: none;
     box-shadow: 0 1px 4px #808080;
+    top: 100%;
+}
+
+/* Nav toggle */
+#navbar-toggle:checked~nav {
+    display: block;
+}
+
+#navbar-toggle {
+    display: none;
+}
+
+.toggle-label {
+    font-size: 26px;
 }
 
 /* Main content */
 main {
     /* Make main element take up any extra space to push footer down */
     flex: 1 0 auto;
-    margin-top: 137px;
+    margin-top: 62px;
 }
 
 /* Hero section */
