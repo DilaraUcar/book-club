@@ -215,9 +215,28 @@ footer {
 }
 
 /* Media query tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    nav {
+        position: relative;
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+    }
 
-/* Media query labtops and larger (1200px and up) */
+    #menu {
+        display: flex;
+    }
+
+    .toggle-label {
+        display: none;
+    }
+
+    #menu>li {
+        padding-left: 4rem;
+    }
+}
+
+/* edia query labtops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* Benefits section */
