@@ -69,7 +69,8 @@ nav {
     left: 0;
     display: none;
     box-shadow: 0 1.5px 2px #808080;
-    top: 100%;
+    top: 9%;
+    z-index: inherit;
 }
 
 /* Nav toggle */
