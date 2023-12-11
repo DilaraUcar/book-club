@@ -16,10 +16,12 @@ body {
     /* Gneneric project styles */
     color: #3a3a3a;
     font-family: 'Signika Negative', sans-serif;
+
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Expletus Sans', sans-serif;
     text-transform: uppercase;
     color: #11191E;
@@ -134,8 +136,33 @@ hr {
     justify-content: center;
 }
 
-/* Meet-ups section */
+/* Meet-ups times section */
+#drop-in {
+    background: url('../images/times-image.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#drop-in div {
+    color: #EAE4D7;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#drop-in h3 {
+    /* Overrides the style we put in general styles */
+    color: #EAE4D7;
+}
+
+#meetups h2 {
+    text-align: center;
+}
+
+#meetups hr {
+    border: 1px solid rgba(234, 228, 215, 0.4);
+}
 
 /* Footer */
 footer {
