@@ -19,11 +19,6 @@ body {
 
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
 h1,
 h2,
 h3 {
@@ -202,13 +197,13 @@ hr {
     /* Fallback colour if picture does not load */
     background: #3a3a3b;
     background: url(../images/contact-image.webp) no-repeat center center/cover;
-    padding: 40px 10% 0 10%;
+    padding: 40px 10% 20% 10%;
 }
 
 #contact-form {
     color: #ffffff;
     background-color: rgba(167, 85, 57, .5);
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
 }
 
@@ -327,6 +322,10 @@ footer {
 
 /* Media query labtops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
 
     /* Benefits section */
     #first-benefit,
