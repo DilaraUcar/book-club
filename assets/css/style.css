@@ -24,7 +24,6 @@ h2,
 h3 {
     font-family: 'Expletus Sans', sans-serif;
     text-transform: uppercase;
-    color: #11191E;
 }
 
 /* Header */
@@ -200,6 +199,7 @@ hr {
     padding: 40px 10% 20% 10%;
 }
 
+/* Contact Form */
 #contact-form {
     color: #ffffff;
     background-color: rgba(167, 85, 57, .5);
@@ -243,7 +243,7 @@ fieldset {
     margin-bottom: 10px;
 }
 
-#contact div {
+#full-height {
     height: 100vh;
 }
 
@@ -261,6 +261,22 @@ fieldset {
 #contact {
     margin: 0 auto;
 }
+
+/* Frequently asked questions */
+#faq {
+    background-color: rgba(111, 117, 108, 0.5);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px
+}
+
+fieldset h3,
+p {
+    padding-bottom: 10px;
+}
+
+/* Sign up page */
+
 
 /* Footer */
 footer {
