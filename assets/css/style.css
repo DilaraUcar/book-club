@@ -267,7 +267,8 @@ fieldset {
     background-color: rgba(111, 117, 108, 0.5);
     color: #ffffff;
     padding: 20px;
-    border-radius: 5px
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 fieldset h3,
@@ -302,6 +303,14 @@ footer {
 .text-center {
     text-align: center;
     padding-bottom: 10px;
+}
+
+/* Media query only for phones (up to 425px) */
+@media screen and (max-width: 425px) {
+    #contact {
+        height: 1900px;
+    }
+
 }
 
 /* Media query tablets and larger (768px and up) */
