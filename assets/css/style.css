@@ -202,19 +202,20 @@ hr {
     /* Fallback colour if picture does not load */
     background: #3a3a3b;
     background: url(../images/contact-image.webp) no-repeat center center/cover;
-    padding: 15px;
+    padding: 40px 10% 0 10%;
 }
 
 #contact-form {
     color: #ffffff;
     background-color: rgba(167, 85, 57, .5);
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 5px;
 }
 
 #contact-form>h2 {
     color: #ffffff;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #contact-form>p {
@@ -247,7 +248,24 @@ fieldset {
     margin-bottom: 10px;
 }
 
-.submit-butto {}
+#contact div {
+    height: 100vh;
+}
+
+.submit-button {
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    display: block;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #3a3a3a;
+}
+
+#contact {
+    margin: 0 auto;
+}
 
 /* Footer */
 footer {
