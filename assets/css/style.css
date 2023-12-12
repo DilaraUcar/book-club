@@ -197,9 +197,64 @@ hr {
     border: 1px solid rgba(234, 228, 215, 0.4);
 }
 
+/* Contact page section */
+#contact {
+    /* Fallback colour if picture does not load */
+    background: #3a3a3b;
+    background: url(../images/contact-image.webp) no-repeat center center/cover;
+    padding: 15px;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(167, 85, 57, .5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#contact-form>h2 {
+    color: #ffffff;
+    margin-bottom: 10px
+}
+
+#contact-form>p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#fname,
+#lname,
+#email-address,
+#message {
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.submit-butto {}
+
 /* Footer */
 footer {
     background-color: #F5F4F4;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #socials {

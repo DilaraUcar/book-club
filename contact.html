@@ -44,8 +44,8 @@
         <section id="contact">
           <form
             id="contact-form"
-            action="POST"
-            method="https://formdump.codeinstitute.net"
+            action="https://formdump.codeinstitute.net"
+            method="POST"
           >
             <h2>Any questions?</h2>
             <p>Fill in the form and we'll usually get back to you within 48h</p>
@@ -90,9 +90,16 @@
 
               <label for="message">Your Message</label>
               <br />
-              <textarea name="message" id="message" placeholder="Please write your message here" cols="30" rows="10"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                class="text-input"
+                placeholder="Please write your message here"
+                cols="30"
+                rows="10"
+              ></textarea>
               <br />
-              <input type="submit" id="submit" value="Submit" />
+              <input type="submit" class="submit-button" value="Submit" />
             </fieldset>
           </form>
         </section>
