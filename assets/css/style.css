@@ -90,7 +90,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.jpeg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -469,6 +469,7 @@ footer {
         margin-left: 170px;
     }
 
+    /* Sign-up page */
     #join-us {
         padding: 90px 12% 20% 10%;
     }
