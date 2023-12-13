@@ -435,7 +435,6 @@ footer {
 
     #join-us {
         height: 100vh;
-        padding: 90px 12% 20% 10%;
     }
 
     /* Contact page */
@@ -468,6 +467,10 @@ footer {
     /* Contact page */
     #full-height {
         margin-left: 170px;
+    }
+
+    #join-us {
+        padding: 90px 12% 20% 10%;
     }
 
 }
