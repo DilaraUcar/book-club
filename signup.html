@@ -44,7 +44,7 @@
         <section id="join-us">
           <div>
             <!-- Sign-up form -->
-            <div id="form">
+            <div id="join-form">
               <h2>Sign up to get invitation on mail to join the club!</h2>
               <form action="https://formdump.codeinstitute.net" method="post">
                 <label for="f-name">First Name</label>
@@ -52,6 +52,7 @@
                   type="text"
                   name="f-name"
                   id="f-name"
+                  class="input-text"
                   placeholder="Required"
                   required
                 />
@@ -61,6 +62,7 @@
                   type="text"
                   name="l-name"
                   id="l-name"
+                  class="input-text"
                   placeholder="Required"
                   required
                 />
@@ -70,12 +72,13 @@
                   type="email"
                   name="email"
                   id="email"
+                  class="input-text"
                   placeholder="Required"
                   required
                 />
                 <br />
                 <input type="checkbox" name="terms" id="terms" value="yes" />
-                <label for="terms"
+                <label for="terms" id="terms-font"
                   >Subscribe to newsletters & upcoming events</label
                 >
                 <br />
@@ -83,9 +86,7 @@
               </form>
             </div>
             <!-- Information -->
-            <div id="info">
-                
-            </div>
+            <div id="info"></div>
           </div>
         </section>
       </main>

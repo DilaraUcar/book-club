@@ -231,7 +231,7 @@ fieldset {
     border-radius: 10px;
 }
 
-::placeholder {
+#contact-form ::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -277,6 +277,54 @@ p {
 }
 
 /* Sign up page */
+#join-us {
+    background: url(../images/join-us-image.webp) no-repeat center center/cover;
+    padding: 40px 10% 20% 10%;
+}
+
+.input-text {
+    background: transparent;
+    width: 100%;
+}
+
+#join-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#join-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#f-name,
+#l-name,
+#email {
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.join-button {
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    display: block;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 3px;
+    background-color: #cbd9e2;
+    font-weight: bold;
+}
+
+#terms-font {
+    font-style: italic;
+}
+
+#terms {
+    width: 15px;
+    height: 17px;
+    margin-top: 10px;
+}
 
 
 /* Footer */
