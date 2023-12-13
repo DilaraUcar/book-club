@@ -203,9 +203,10 @@ hr {
 /* Contact Form */
 #contact-form {
     color: #ffffff;
-    background-color: rgba(167, 85, 57, .5);
+    background-color: rgba(165, 74, 59, .7);
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.4);
 }
 
 #contact-form>h2 {
@@ -253,7 +254,7 @@ fieldset {
     padding: 10px 20px;
     display: block;
     padding: 10px 20px;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 3px;
     color: #ffffff;
     background-color: #3a3a3a;
@@ -265,11 +266,12 @@ fieldset {
 
 /* Frequently asked questions */
 #faq {
-    background-color: rgba(111, 117, 108, 0.5);
+    background-color: rgba(111, 117, 108, 0.7);
     color: #ffffff;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.4);
 }
 
 fieldset h3,
@@ -290,10 +292,11 @@ p {
 }
 
 #join-form {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 25px;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.4);
 }
 
 #join-form h2 {
@@ -331,9 +334,10 @@ p {
 
 /* Info */
 #info {
-    background-color: rgba(181, 218, 241, 0.6);
+    background-color: rgba(181, 218, 241, 0.8);
     padding: 25px;
     border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 #info h2 {
@@ -379,7 +383,7 @@ footer {
 
     /* Contact page */
     #contact {
-        height: 1900px;
+        height: 1950px;
     }
 
 }
@@ -433,11 +437,39 @@ footer {
         height: 100vh;
         padding: 90px 12% 20% 10%;
     }
+
+    /* Contact page */
+    #faq {
+        width: 500px;
+    }
+
+    #cform {
+        width: 500px;
+    }
+
+    #contact {
+        padding-bottom: 450px;
+        padding-top: 65px;
+    }
+
+    #full-height {
+        margin-left: 50px;
+    }
 }
 
 /* Media query for small laptops and larger (1024px and up) */
 #menu a:hover {
     border-bottom: 1px solid #4D5054;
+}
+
+/* Media query for laptops (1224px and larger) */
+@media screen and (min-width: 1024px) {
+
+    /* Contact page */
+    #full-height {
+        margin-left: 160px;
+    }
+
 }
 
 /* Media query labtops and larger (1200px and up) */
