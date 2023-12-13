@@ -197,7 +197,7 @@ hr {
     /* Fallback colour if picture does not load */
     background: #3a3a3b;
     background: url(../images/contact-image.webp) no-repeat center center/cover;
-    padding: 40px 10% 20% 10%;
+    padding: 40px 10% 150% 10%;
 }
 
 /* Contact Form */
@@ -448,7 +448,7 @@ footer {
     }
 
     #contact {
-        padding-bottom: 450px;
+        padding-bottom: 490px;
         padding-top: 65px;
     }
 
@@ -462,12 +462,12 @@ footer {
     border-bottom: 1px solid #4D5054;
 }
 
-/* Media query for laptops (1224px and larger) */
+/* Media query for laptops (1024px and larger) */
 @media screen and (min-width: 1024px) {
 
     /* Contact page */
     #full-height {
-        margin-left: 160px;
+        margin-left: 170px;
     }
 
 }
@@ -509,5 +509,10 @@ footer {
 
     #rounded-image {
         border-radius: 50%;
+    }
+
+    /* Contact page */
+    #full-height {
+        margin-left: 200px;
     }
 }
