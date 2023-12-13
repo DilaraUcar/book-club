@@ -97,11 +97,11 @@ main {
 #text-cover>h2 {
     font-family: 'Expletus Sans', sans-serif;
     text-transform: uppercase;
-    color: #EAE4D7;
+    color: #FFFAEF;
 }
 
 #text-cover {
-    background-color: rgba(163, 143, 143, .8);
+    background-color: rgba(165, 74, 59, .7);
     font-size: 110%;
     text-align: center;
     bottom: 50px;
@@ -110,7 +110,7 @@ main {
     min-height: 150px;
     padding: 50px;
     border-radius: 10px;
-
+    border: 1px solid #000000;
 }
 
 /* Our Story section */
@@ -155,6 +155,7 @@ hr {
     border-radius: 25%;
     max-width: 320px;
     max-height: 320px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 #reasons-image {
@@ -165,14 +166,14 @@ hr {
 
 /* Meet-ups times section */
 #drop-in {
-    background: url('../images/times-image.webp') no-repeat center/cover;
+    background-color: rgba(97, 43, 43, .8);
     display: flex;
     flex-wrap: wrap;
+    border-radius: 5px;
 }
 
 #drop-in div {
-    color: #EAE4D7;
-    background-color: rgba(0, 0, 0, .6);
+    color: #FFFDFA;
     text-align: center;
     padding: 20px;
     flex-grow: 1;
@@ -180,7 +181,7 @@ hr {
 
 #drop-in h3 {
     /* Overrides the colour style we put in general styles */
-    color: #EAE4D7;
+    color: #FFFAF2;
 }
 
 #meetups h2 {
@@ -280,6 +281,7 @@ p {
 #join-us {
     background: url(../images/join-us-image.webp) no-repeat center center/cover;
     padding: 40px 10% 20% 10%;
+    background-position: 60%;
 }
 
 .input-text {
@@ -291,6 +293,7 @@ p {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 25px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 #join-form h2 {
@@ -326,6 +329,24 @@ p {
     margin-top: 10px;
 }
 
+/* Info */
+#info {
+    background-color: rgba(181, 218, 241, 0.6);
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#info h2 {
+    padding-bottom: 20px;
+}
+
+#info h3 {
+    padding-bottom: 10px;
+}
+
+#info p {
+    padding-bottom: 20px;
+}
 
 /* Footer */
 footer {
@@ -355,6 +376,8 @@ footer {
 
 /* Media query only for phones (up to 425px) */
 @media screen and (max-width: 425px) {
+
+    /* Contact page */
     #contact {
         height: 1900px;
     }
@@ -363,6 +386,8 @@ footer {
 
 /* Media query tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    /* Home page */
     nav {
         position: relative;
         display: block;
@@ -385,6 +410,28 @@ footer {
     #logo {
         font-size: 250%;
         margin: 0 20px;
+    }
+
+    /* Sign-up page */
+    #info {
+        width: 500px;
+        padding: 5% 40px 5% 50px;
+    }
+
+    #join-form {
+        width: 350px;
+        margin-bottom: 0px;
+        padding: 5%;
+    }
+
+    #box {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #join-us {
+        height: 100vh;
+        padding: 90px 12% 20% 10%;
     }
 }
 
