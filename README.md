@@ -34,7 +34,7 @@ All pages are responsive and have a :
 - Our Story Section
 
   - It shows the user why the club was founded and the desires and vison of the club.
-    ![Our Story](documentation/story.jpeg)
+    ![Our Story](./documentation/story.jpeg)
 
 - The benefits of club section
 
@@ -45,6 +45,8 @@ All pages are responsive and have a :
 - Meetups Section
   - This section allows the visitor to see exactly when, where and how long the meetups will be and that all meetups are a drop-in.
     ![Meetups Section](documentation/meetup.jpeg)
+
+#### Contact Page
 
 ### Features Left to Implement
 
