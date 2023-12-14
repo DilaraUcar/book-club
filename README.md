@@ -90,9 +90,19 @@ All pages are responsive and have a :
 
   ![Lighthouse](documentation/lighthouse.jpeg)
 
-### Unfixed Bugs
+## Fixed Bugs
+
+In contact page the footer did not go to the bottom of the page on all screen sizes. I fixed this by adding a div around the content of the page and gave it a height of 100vh.
 
 ## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab and go to pages.
+  - From the source section drop-down menu, select the Deploy from branch.
+  - Once the deploy from branch has been selected, make sure the branch is set to main and root and click save when page is refreshed it will display a popup to indicate the successful deployment.
+
+  The live link can be found here - <https://dilaraucar.github.io/book-club/index.html>
 
 ## Credits
 
