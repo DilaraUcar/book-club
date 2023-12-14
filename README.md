@@ -1,12 +1,50 @@
 # Readers Club
 
-The Readers Club website is for people who love reading books and are looking for a way to socialize and meet other people with the common interest for books and reading in the Stockholm, Sweden area.
+The Readers Club website is designed for people who love reading books and are looking for a way to socialize and meet other people with the common interest for books and reading in the Stockholm, Sweden area. The website is responsive allowing a visitor to view on a range of different devices.
 
 ![mockup](documentation/mock-up.jpeg)
 
 ## Features
 
+The website consists of a home page, a contact page and, a sign up page.
+
 ### Existing Features
+
+All pages are responsive and have a :
+
+- Favicon in the browser tab.
+  - Is always displayed in the tab no matter where in the website you are.  
+    ![Favicon](documentation/favicon.jpeg)
+- Navigation bar.
+  - Is displayed on all three pages and is fully responsive with dropdown menu on smaller screen sizes.
+  - The responsive navigation bar invludes links to Logo,Home page, Contact page and, Join Us page, making it easy to navigate throughout the website, without having to press the "back" button, on all screen sizes.
+    ![Navigation](documentation/nav.jpeg)
+- Footer
+  - Is displayed on all three pages and encourages the user to follow along on the clubs social media pages.
+  - All links will open in new tab making it easy for user to not have to press the 'back' button and not causing confusion.
+    ![Footer](documentation/footer.jpeg)
+
+#### Landing Page
+
+- The landing page image
+
+  - Exsists of a image with a cover text to encourage the visitor that has an interest in the subject to keep reading and staying on the website.
+    ![Landing page image](documentation/home.jpeg)
+
+- Our Story Section
+
+  - It shows the user why the club was founded and the desires and vison of the club.
+    ![Our Story](documentation/story.jpeg)
+
+- The benefits of club section
+
+  - The visitor will understand the benefits of joining the club and the overall benefit of reading.
+  - It will encourage them and see the value in signing up to join the club.
+    ![Benefits Section](documentation/benefit.jpeg)
+
+- Meetups Section
+  - This section allows the visitor to see exactly when, where and how long the meetups will be and that all meetups are a drop-in.
+    ![Meetups Section](documentation/meetup.jpeg)
 
 ### Features Left to Implement
 
