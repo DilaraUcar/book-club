@@ -70,6 +70,11 @@ All pages are responsive and have a :
 
 ### Features Left to Implement
 
+- In future implementations I would like to:
+
+  - Add a community page that describes more about the members of the club with pictures.
+  - A benefit how joining the club gets you access to a group on Telegram (messaging app) to communicate and get to know new and existing members.
+
 ## Testing
 
 ### Validator Testing
