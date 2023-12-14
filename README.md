@@ -48,9 +48,25 @@ All pages are responsive and have a :
 
 #### Contact Page
 
-- Frequently Asked Questions & Contact form
-  - In this part of the page the user will find answers to frequently asked questions and a contact form.
-  - The Frequently asked questions part is put beside the contact form on bigger screens and before the contact form on smaller screens so that the user can look through them to see if there question may be answered before considering submitting a question through the form.
+- Frequently Asked Questions
+
+  - In this part of the page the user will find answers to frequently asked questions.
+  - The Frequently asked questions part is put before the contact form on smaller screens so that the user can look through them to see if there question may be answered before considering submitting a question through the form.
+    ![Contact page](documentation/faq.jpeg)
+
+- Contact Form
+  - In this part the visitor who may have questions will be able to submit this through the form. All parts are required and in the email input the form cannot be submitted if a @ is not present. And the submit button also works.
+    ![Contact page](documentation/c-form.jpeg)
+
+#### Join Us Page
+
+- Sign Up form & brief overwiev of why to join
+
+  - In this section of the page the visitor is presented with a join-us form and a overwiev of why they should sign up to join and the benefits.
+  - The section is fully resposive and has the sign up form put above the overwiev on smaller screens and beside eachother on bigger screens so that the visitor may go over the values of joining on last time to raise excitement.
+  - The form inputs are all required, has a checkbox for those who wants to recieve newsletters & updates, and a working join button.
+
+  ![Contact page](documentation/join.jpeg)
 
 ### Features Left to Implement
 
