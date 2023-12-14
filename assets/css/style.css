@@ -44,14 +44,15 @@ header a {
 }
 
 #menu {
-    font-size: 105%;
-    letter-spacing: 1px;
+    font-size: 115%;
+    letter-spacing: 2px;
     list-style-type: none;
     text-transform: uppercase;
 }
 
 #menu>li {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 /* Navbar with dropsown toggle styles */
