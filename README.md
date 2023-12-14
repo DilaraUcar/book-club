@@ -96,13 +96,16 @@ In contact page the footer did not go to the bottom of the page on all screen si
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-  - In the GitHub repository, navigate to the Settings tab and go to pages.
-  - From the source section drop-down menu, select the Deploy from branch.
-  - Once the deploy from branch has been selected, make sure the branch is set to main and root and click save when page is refreshed it will display a popup to indicate the successful deployment.
+1. Go to [Book-Club repository](https://github.com/DilaraUcar/book-club)
+2. Navigate to the Settings, top left
+3. In settings on the left side of the screen click pages.
+4. From the source section drop-down menu, select the Deploy from branch.
+5. Under Branch select main and set folder to root and save.
+6. once the steps are done go back to book club repository and refresh page and you'll see deployed page at the right side if you scroll down.
 
-  The live link can be found here - <https://dilaraucar.github.io/book-club/index.html>
+The live link can be found here - <https://dilaraucar.github.io/book-club/index.html>
 
 ## Credits
 
