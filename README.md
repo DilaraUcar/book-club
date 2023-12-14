@@ -34,7 +34,7 @@ All pages are responsive and have a :
 - Our Story Section
 
   - It shows the user why the club was founded and the desires and vison of the club.
-    ![Our Story](./documentation/story.jpeg)
+    ![Our Story](documentation/story.jpeg)
 
 - The benefits of club section
 
@@ -47,6 +47,10 @@ All pages are responsive and have a :
     ![Meetups Section](documentation/meetup.jpeg)
 
 #### Contact Page
+
+- Frequently Asked Questions & Contact form
+  - In this part of the page the user will find answers to frequently asked questions and a contact form.
+  - The Frequently asked questions part is put beside the contact form on bigger screens and before the contact form on smaller screens so that the user can look through them to see if there question may be answered before considering submitting a question through the form.
 
 ### Features Left to Implement
 
