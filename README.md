@@ -109,8 +109,26 @@ The live link can be found here - <https://dilaraucar.github.io/book-club/index.
 
 ## Credits
 
+### Code that was used
+
+- Navigation - dropdown toggle for mobile screens where inspired from Code Institutes Love Running project.
+
+  ![Nav dropdown toggle styling in css](documentation/nav-toggle.jpeg)
+
+- Footer - the socials for footer where inspired from Code Institutes Love Running project.
+
+![Footer socials in html](documentation/foot.jpeg)
+
 ### Content
 
+- The text on home page was taken and inspired from this [blog post.](https://blog.everand.com/reasons-to-join-a-book-club/)
+- How to change placeholder text on forms where taken from [this site.](https://www.w3schools.com/howto/howto_css_placeholder.asp)
+
 ### Media
+- [Font Awesome](https://fontawesome.com/sessions/sign-in) were used for all icons such as in the footer, the benefits section and q&a section in contact page.
+- [Favicon.io](https://favicon.io/favicon-generator/) were used to create and generate a favicon.
+- [Coolors](https://coolors.co/6f756c-9a9a92-23191a-562d25-080a0e-19181a) were used to generate different colour palettes to use on website.
+- [Pexels](https://www.pexels.com/sv-se/) were used for all images used.
+- [Fontjoy](https://fontjoy.com/) were used to generate font pairings that look good together.
 
 ## Other General Project Advice
